@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+   {{>navbar}}
+
+   {{!-- hero section starts --}}
+    <div class="container-fluid mt-5">
+        <div class="row">
+              <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 hero-text order-md-0 order-1">
+                        <h1 style="font-size: 3rem;
+  line-height: 1;
+  text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+  letter-spacing: 1px;
+  color: #2f2f2f;
+  letter-spacing: 2px;
+  text-transform: uppercase;">WE WILL HELP YOU TO</h1>
+                        <h1 style="font-size: 3rem;
+  line-height: 1;
+  text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+  letter-spacing: 1px;
+  color: #2f2f2f;
+;">GROW YOUR BUSINESS</h1>
+                        <p style=" font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  color: #777676;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;">We are The Team of <span class="bold-style"> Professional Developer</span></p>
+                       <button class="btn-style" style="padding: 12px 25px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  background: #ec615b;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;">Read More</button>
+                    </div>
+                    {{!-- right side --}}
+                        <div class="col-md-6 col-12 hero-text order-md-0 order-1">
+                            <figure>
+                                <img src="https://img.freepik.com/free-vector/sales-managers-with-laptops-growth-chart-sales-growth-manager-accounting-sales-promotion-operations-concept-white-background_335657-1704.jpg?size=626&ext=jpg" alt="herosection_image" style="width: 500px;height: 300px">
+                            </figure>
+                    </div>      
+
+                </div>
+              </div>
+        </div>
+    </div>
+{{!-- hero section ends --}}
+
+{{!-- about us start --}}
+{{>about}}
+
+{{!-- about ends --}}
+{{!-- servises start --}}
+{{>services}}
+
+{{!-- servi ends --}}
+
+{{!-- maps --}}
+{{>map}}
+
+{{!-- maps ends --}}
+{{!-- contact start --}}
+{{>contact}}
+{{!-- contact end --}}
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+    
+</body>
+</html>
